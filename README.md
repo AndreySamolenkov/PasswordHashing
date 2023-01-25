@@ -1,8 +1,3 @@
-# PasswordHashing
-Password hashing script using a Python bcrypt module
-
-2 / 2
-
 This is a Python script that uses the bcrypt library to hash a password and then compare it to a user-entered password.
 The script first converts the original password into bytes and then hashes it using bcrypt's hashpw function, 
 which takes the password and a randomly generated salt as arguments. 
